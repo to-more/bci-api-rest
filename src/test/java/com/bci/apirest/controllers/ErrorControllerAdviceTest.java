@@ -1,6 +1,7 @@
 package com.bci.apirest.controllers;
 
-import com.bci.apirest.validators.ValidationException;
+import com.bci.apirest.exceptions.ValidationException;
+import com.bci.apirest.model.ErrorResponse;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

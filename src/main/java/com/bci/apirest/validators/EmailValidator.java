@@ -1,6 +1,7 @@
 package com.bci.apirest.validators;
 
 import com.bci.apirest.dtos.UserDto;
+import com.bci.apirest.exceptions.InvalidEmailException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 

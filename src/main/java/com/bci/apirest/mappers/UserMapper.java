@@ -8,7 +8,6 @@ import org.mapstruct.Mapping;
 import org.mapstruct.MappingConstants;
 
 import java.util.Optional;
-import java.util.UUID;
 
 @Mapper(
     uses = PhoneMapper.class,

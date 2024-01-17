@@ -1,4 +1,4 @@
-package com.bci.apirest.validators;
+package com.bci.apirest.exceptions;
 
 
 public class InvalidEmailException extends ValidationException {

@@ -1,4 +1,4 @@
-package com.bci.apirest.controllers;
+package com.bci.apirest.model;
 
 public class ErrorResponse {
     String message;

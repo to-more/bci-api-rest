@@ -1,6 +1,7 @@
 package com.bci.apirest.usecases;
 
 import com.bci.apirest.dtos.UserDto;
+import com.bci.apirest.exceptions.DuplicatedEmailException;
 import com.bci.apirest.mappers.UserMapper;
 import com.bci.apirest.model.User;
 import com.bci.apirest.repos.UserRepository;
@@ -9,7 +10,6 @@ import com.bci.apirest.validators.PasswordValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
 import java.util.Optional;
 
 @Component

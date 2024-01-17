@@ -1,6 +1,7 @@
 package com.bci.apirest.validators;
 
 import com.bci.apirest.dtos.UserDto;
+import com.bci.apirest.exceptions.ValidationException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,6 +1,4 @@
-package com.bci.apirest.usecases;
-
-import com.bci.apirest.validators.ValidationException;
+package com.bci.apirest.exceptions;
 
 public class DuplicatedEmailException extends ValidationException {
     public DuplicatedEmailException(String message){

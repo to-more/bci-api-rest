@@ -7,7 +7,7 @@ import com.bci.apirest.mappers.UserMapperImpl;
 import com.bci.apirest.model.User;
 import com.bci.apirest.repos.UserRepository;
 import com.bci.apirest.usecases.CreateUserUseCase;
-import com.bci.apirest.usecases.DuplicatedEmailException;
+import com.bci.apirest.exceptions.DuplicatedEmailException;
 import com.bci.apirest.validators.EmailValidator;
 import com.bci.apirest.validators.PasswordValidator;
 import org.junit.jupiter.api.Test;
